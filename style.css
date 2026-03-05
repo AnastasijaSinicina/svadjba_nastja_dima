@@ -139,12 +139,11 @@ body.locked {
 }
 
 .lockscreen__pre {
-  font-family: 'Nunito', sans-serif;
-  font-size: 0.6rem;
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(3.5rem, 14vw, 6rem);
   font-weight: 400;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  color: #e8d5b5;
+  text-transform: none;
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -502,7 +501,7 @@ body.locked {
 .countdown {
   position: relative;
   padding: 90px 24px;
-  background: url('https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1600') center/cover no-repeat;
+  background: url('images/photo_2026-03-05_19-46-43.jpg') center/cover no-repeat;
 }
 
 .countdown__overlay {
@@ -1013,8 +1012,7 @@ body.locked {
     padding: 0 20px;
   }
   .lockscreen__pre {
-    font-size: 0.55rem;
-    letter-spacing: 3px;
+    font-size: clamp(4rem, 18vw, 6rem);
   }
   .swipe__track {
     width: 85%;
@@ -1213,8 +1211,7 @@ body.locked {
     margin-bottom: 22px;
   }
   .lockscreen__pre {
-    font-size: 0.5rem;
-    letter-spacing: 3px;
+    font-size: clamp(3.8rem, 17vw, 5.5rem);
     margin-bottom: 14px;
   }
   .lockscreen__names {
