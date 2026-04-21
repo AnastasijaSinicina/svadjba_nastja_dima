@@ -952,6 +952,30 @@ body.locked {
   margin-top: 28px;
 }
 
+/* ===== GIFTS ===== */
+.gifts {
+  padding: 30px 24px 90px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.dresscode .section-title,
+.gifts .section-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.2rem;
+}
+
+.gifts .dresscode__text {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 32px;
+}
+
+.gifts__icon {
+  margin-top: 10px;
+  text-align: center;
+}
+
 /* ===== FOOTER ===== */
 .footer {
   padding: 60px 24px;
